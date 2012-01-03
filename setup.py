@@ -14,7 +14,7 @@ except ImportError:
 setup(
     name='django-fasttest',
     version='0.1',
-    description=u'An alternate Django TestCase class to improve test running times',
+    description=u'A variant on django.test.TestCase optimized for postgres',
     long_description=__doc__,
     author = u'Daniel Moisset',
     author_email = 'dmoisset@machinalis.com',
