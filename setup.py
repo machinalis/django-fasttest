@@ -4,12 +4,7 @@
 with open('README.md') as readme:
     __doc__ = readme.read()
 
-try:
-    from setuptools import setup
-except ImportError:
-    import distribute_setup
-    distribute_setup.use_setuptools()
-    from setuptools import setup
+from distutils.core import setup
 
 setup(
     name='django-fasttest',
@@ -18,11 +13,8 @@ setup(
     long_description=__doc__,
     author = u'Daniel Moisset',
     author_email = 'dmoisset@machinalis.com',
-    url='https://machinalis.com',
+    url='https://github.com/machinalis/django-fasttest',
     packages=['django_fasttest'],
-    include_package_data=True,
-    zip_safe=True,
-    install_requires=['Django==1.3'],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',

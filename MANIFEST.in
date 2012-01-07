@@ -1,4 +1,4 @@
 include README.md
 include README.txt
 include LICENSE
-recursive-include . *.py
+recursive-include django_fasttest *.py
