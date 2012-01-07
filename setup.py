@@ -18,7 +18,7 @@ setup(
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
-        'Intended Audience :: Developers'
+        'Intended Audience :: Developers',
         'Framework :: Django',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
